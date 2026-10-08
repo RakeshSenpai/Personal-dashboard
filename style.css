@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;600;700&display=swap');
+
+
+:root{
+    --bg-color: #F8FAFC;
+    --card-color: #FFFFFF;
+    --primary-texts: #0F172A;
+    --secondary-texts:#64748B;
+    --border-color : #E2E8F0;
+    --primary-accent: #2563EB;
+    --accent-hover: #1D4ED8;
+
+  /* Spacing */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --space-3xl: 64px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-color);
+
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background: var(--bg-color);
+}
+
+.side-bar{
+    height: 100%;
+    width: 20%;
+    background: var(--card-color);
+}
+
+.content{
+    width: 80%;
+    height: 100%;
+    display: grid;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px 16px 16px;
+}
+
+.text-heading{
+    color: var(--primary-texts);
+
+    p{
+        color: var(--secondary-texts);
+    }
+}
+
+.text-heading{
+    /* border: 2px solid black; */
+}
+
+.profile{
+    /* border: 2px solid red; */
+}
+
+
+.progress-container{
+    border: 2px solid yellow;
+}
+.learning-path{
+    border: 2px solid rgb(15, 239, 220);
+}
+.learning-progress{
+    border: 2px solid rgb(255, 0, 242);
+}
+.recent-activities{
+    border: 2px solid rgb(0, 13, 255);
+}
+
